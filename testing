@@ -1,0 +1,19 @@
+The goal of software testing is to find errors, gaps, or missing requirements in comparison to the actual requirements.
+
+For the identification of the issues before the occurrence in the critical environment, it is a prerequisite to performing the testing of software.
+
+A properly tested software product ensures dependability, security, and high performance, which leads to time savings, cost effectiveness, and customer satisfaction.
+
+The testing of software comprises of a bunch of projects. In case you find any bug in the early phases, fixing them costs a reduced amount of money.
+
+-X-
+
+Design all tests to be independent from one another. It is essential to be able to launch every test independently of other tests.
+
+Integrate all tests with the CI/CD pipeline. The ideal QA process in a company should be automated in such a way that every change in the code is tested automatically as a part of the CI setup before the changes are deployed into production.
+
+Write requirements that can be easily converted into testing scenarios using BDD.
+
+Do your best to gather every piece of evidence that will help to fix bugs. Screenshots and screencasts for failed tests are a good example here. Adding them do the test logs will definitely make your life easier when you investigate a possible cause of a test failure and try to fix it.
+
+-X-
